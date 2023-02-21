@@ -1,5 +1,8 @@
 public class cars extends vehicle{
     public int numDoors;
+    engine mainEngine = new engine();
+    body carsbody = new body();
+    wheels numofwheels =new wheels();
 
     public cars(String brand, int numDoors) {
         super(brand);
